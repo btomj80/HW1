@@ -30,7 +30,6 @@ a:hover {text-decoration: underline;}
 		
 .page {padding-left:30px; padding-right:30px; padding-top:20px; padding-bottom:0px; }
 		
-.logo { float:right; padding-right:20px; padding-top:20px;}
 
 .menubar { background-color: #1F7C65; height:10px;}
 
@@ -60,7 +59,7 @@ a:hover {text-decoration: underline;}
 			margin:20px;
 			}
 
-/* Formatting for top navigation buttons on the web site */
+
 	ul#navlist{list-style-type:none; margin: 0px; padding: 0px;}
 
 	#navlist li{ display:block; float:left; font-weight:bold; text-align:center; font-variant:small-caps; }
@@ -71,6 +70,6 @@ a:hover {text-decoration: underline;}
 
 	#navlist a:hover { color: #fff; background-color: #98bf21; text-decoration: none; }
 		
-/* Formatting to highlight the navigation button corresponding to the page you are on... breadcrumb. */
+
 	body#home  a#homenav, body#resume	a#resumenav
 			{ color: #fff; background-color: #98bf21; text-decoration: none; }
