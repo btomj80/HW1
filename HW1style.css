@@ -1,0 +1,76 @@
+body {
+			text-align:center;
+			color: black;
+			background-color: #03436A;
+			font-size: 11pt;
+			font-family: Veranda; Geneva, Arial, Helvetica, sans-serif; 
+		
+			}	
+		
+h1 {text-align:center; color:#036; font-size: 24pt; font-weight:bold; font-variant:small-caps; background-color:#98bf21; height:60px; margin-bottom: 0px; padding-left:10px; padding-top:15px;}
+h4 {text-align:center; color: black; font-size: 8pt; font-weight:bold; font-variant:small-caps; background-color:#98bf21; height:20; margin-bottom: 0px; padding-left:10px;}
+		
+div {}
+		
+p {margin-top:30px; } 
+		
+a {text-decoration:none;}
+		
+a:hover {text-decoration: underline;}
+
+.center{float:center;padding-left:30px;}
+
+.left{float:left;}		
+
+.right{float:right;padding:20px;}	
+
+.content {background-color:#245A7A; margin:0 auto; width:960px; text-align:left; border: 2px solid black; }
+
+.contentr {background-color:#245A7A; margin:0 auto; width:960px; border: 2px solid black; }
+		
+.page {padding-left:30px; padding-right:30px; padding-top:20px; padding-bottom:0px; }
+		
+.logo { float:right; padding-right:20px; padding-top:20px;}
+
+.menubar { background-color: #1F7C65; height:10px;}
+
+.footer { text-align:center; font-variant:small-caps; padding-bottom:30px; font-weight:bold; }
+		
+.text_line { clear:both; background-color:#98bf21;}
+		
+
+.pics{		
+			float: right;
+			height:100px;
+			width:150px;
+			
+			}
+.picl{		
+			float: left;
+			height:225px;
+			width:275px;
+			padding:20px;
+			margin:20px;
+			}
+.picr{		
+			float: right;
+			height:225px;
+			width:275px;
+			padding:20px;
+			margin:20px;
+			}
+
+/* Formatting for top navigation buttons on the web site */
+	ul#navlist{list-style-type:none; margin: 0px; padding: 0px;}
+
+	#navlist li{ display:block; float:left; font-weight:bold; text-align:center; font-variant:small-caps; }
+
+	#navlist a { padding: 10px 10px; }
+
+	#navlist a:link, #navlist a:visited { color: #fff; background-color: #036; text-decoration: none; }
+
+	#navlist a:hover { color: #fff; background-color: #98bf21; text-decoration: none; }
+		
+/* Formatting to highlight the navigation button corresponding to the page you are on... breadcrumb. */
+	body#home  a#homenav, body#resume	a#resumenav
+			{ color: #fff; background-color: #98bf21; text-decoration: none; }
