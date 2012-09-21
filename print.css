@@ -1,0 +1,9 @@
+body { background: white; font-size: 10pt; font-family:Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif; }
+
+img { display: none; }
+
+ul { margin:0px; padding:0; list-style:disc; }
+li { margin-left:20px; margin-bottom:5px; padding:0;  }
+a {display: none;}
+title {display: none;}
+#header, #nav, #sidebar, #footer { display: none; }
